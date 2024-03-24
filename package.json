@@ -1,16 +1,23 @@
 {
-    "name": "hls-streaming",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "aws-sdk": "^2.1583.0",
-        "dotenv": "^16.1.4",
-        "fluent-ffmpeg": "^2.1.2"
-    }
+  "scripts": {
+    "start": "--exec ts-node main.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.540.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "i": "^0.3.7",
+    "npm": "^10.5.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  }
 }
